@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+}
+
+.input-area,
+.incomplate-area,
+.complate-area {
+  padding: 0.5em;
+  width: 400px;
+  margin-bottom: 0.5em;
+  border-radius: 0.5em;
+}
+button{
+  border-radius:1.5em ;
+  border:none;
+  padding:.3em 1.2em;
+}
+button:hover{
+  cursor:pointer;
+}
+
+.incomplate-area,
+.complate-area {
+  min-height: 200px;
+}
+.incomplate-area li,
+.complate-area li{
+  padding-bottom:0.5em;
+}
+.incomplate-area li p,
+.complate-area li p{
+  display: inline;
+}
+
+.input-area {
+  background-color: #e6e6fa;
+}
+.input-area input {
+  border-radius: 0.5em;
+  border: none;
+  padding: 0.5em;
+  outline:none:
+}
+.input-area button.btnAdd{
+  background-color:#dcccff;
+}
+.input-area button.btnAdd:hover{
+  background-color:#9370db;
+  color: #FFF;
+}
+
+.title{
+text-align: center;
+margin:0;
+font-weight:bold;
+color:#333;
+}
+
+.incomplate-area {
+  background-color: #faf0e6;
+  border: 1px solid #d2b48c;
+}
+.incomplate-area button.btnCmp{
+  border:2px solid #008080;
+  background-color:#b8e6e6;
+  color:#008080;
+  margin-left:.3em;
+}
+.incomplate-area button.btnCmp:hover{
+  background-color:#008080;
+  color:#b8e6e6;
+}
+
+.incomplate-area button.btnDlt{
+  background-color: #db7093;
+  color: #FFFFFF;
+  margin-left:.3em;
+}
+.incomplate-area button.btnDlt:hover{
+  background-color:#FFFFFF;
+  color: #db7093;
+}
+
+.complate-area {
+  background-color: #b0c4de;
+}
+.complate-area ul li p{
+  text-decoration: line-through;
+
+}
+.complate-area button.btnBk{
+  background-color: #1a4680;
+  color: #fff;
+}
+.complate-area button.btnBk:hover{
+  background-color:#f0f8ff;
+  color: #000;
+}
